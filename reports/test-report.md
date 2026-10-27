@@ -12,3 +12,11 @@
 
 安全说明：测试使用内存中的 SMTP 传输替身，不向外部邮箱发送邮件，
 也不会读取或保存真实授权码。
+
+## 真实 SMTP 投递
+
+- 命令：`python -X utf8 scripts/send_ethereal_demo.py`
+- 测试服务：Ethereal Email（免费一次性测试邮箱）
+- SMTP：`smtp.ethereal.email:587`
+- 结果：发送成功，包含中文主题和附件
+- 脱敏记录：`reports/ethereal-delivery.json`

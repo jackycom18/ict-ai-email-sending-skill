@@ -17,6 +17,7 @@
 
 - `skills/sendmail/`：官方 Skill 与发送脚本。
 - `tests/test_sendmail_skill.py`：参数校验与 SMTP 发送路径测试。
+- `scripts/send_ethereal_demo.py`：一次性测试邮箱真实 SMTP 投递。
 - `data/recipients.csv`：个性化通知示例数据。
 - `Agent办公实践邮件发送Skill实践作品/`：比赛要求的最终归档。
 
@@ -36,8 +37,8 @@
 ## 安全约束
 
 - 不把真实授权码写入代码、日志或公开仓库。
-- 没有用户授权码时不向外部邮箱发送真实邮件。
-- 验证使用 SMTP 传输替身检查完整 MIME 和登录参数。
+- 没有用户授权码时不使用私人邮箱。
+- 使用免费的一次性 Ethereal 测试邮箱验证真实 SMTP 投递。
 
 ## 验收
 

@@ -31,3 +31,8 @@ email-sending-skill-practice/
 ### `data/recipients.csv`
 
 - 用途：演示姓名、邮箱、课程与成绩的个性化通知来源。
+
+### `scripts/send_ethereal_demo.py`
+
+- 用途：创建一次性测试邮箱并通过官方 Skill 完成真实 SMTP 投递。
+- 安全：凭据仅写入临时目录，报告会屏蔽测试邮箱地址。
