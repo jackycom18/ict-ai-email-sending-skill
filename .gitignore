@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+skills/sendmail/config/accounts.json
+reports/*.tmp
+.pytest_cache/

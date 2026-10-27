@@ -1,0 +1,34 @@
+{
+  "accounts": [
+    {
+      "name": "我的QQ邮箱",
+      "provider": "qq",
+      "user": "yourname@qq.com",
+      "auth_code": "你的QQ邮箱授权码（非登录密码）",
+      "from_name": "张三"
+    },
+    {
+      "name": "我的163邮箱",
+      "provider": "163",
+      "user": "yourname@163.com",
+      "auth_code": "你的163邮箱授权码",
+      "from_name": "张三"
+    },
+    {
+      "name": "我的Gmail",
+      "provider": "gmail",
+      "user": "yourname@gmail.com",
+      "auth_code": "你的Gmail应用专用密码",
+      "from_name": "Zhang San"
+    },
+    {
+      "name": "自定义邮箱",
+      "provider": "custom",
+      "user": "yourname@example.com",
+      "auth_code": "你的邮箱授权码",
+      "from_name": "张三",
+      "host": "smtp.example.com",
+      "port": 465
+    }
+  ]
+}
